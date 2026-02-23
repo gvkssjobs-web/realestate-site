@@ -235,7 +235,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize EmailJS with your Public Key
     // Get your Public Key from: https://dashboard.emailjs.com/admin/integration
     // Replace "YOUR_PUBLIC_KEY" with your actual EmailJS Public Key
-    emailjs.init("80Zy2LkLQ835VX806");
+    emailjs.init("CbKb2Rfh6fq3Zk5xv");
     
     // Contact Form Handler
     const contactForm = document.getElementById('contactForm');
@@ -282,7 +282,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Send email using EmailJS
             // Replace 'YOUR_SERVICE_ID' and 'YOUR_TEMPLATE_ID' with your actual IDs from EmailJS dashboard
-            emailjs.send('service_g1yokdc', 'template_87gmk9x', formData)
+            emailjs.send('service_7iobka2', 'template_87gmk9x', formData)
                 .then(function(response) {
                     // Success
                     messageDiv.className = 'mb-4 p-4 rounded-xl text-sm sm:text-base font-medium bg-green-100 text-green-800 border-2 border-green-300';
